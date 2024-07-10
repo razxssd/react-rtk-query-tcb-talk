@@ -20,3 +20,5 @@ Esempi di:
 Viene usato il servizio *https://dummyjson.com* per il "backend fitizio"
 
 Divertitevi studiando 👋🏻
+
+Credits to: [HuXn-WebDev](https://github.com/HuXn-WebDev)
