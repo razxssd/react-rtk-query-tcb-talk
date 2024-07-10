@@ -1,5 +1,7 @@
 # Redux Toolkit Query per gestire dati, cache e stato di React - Talk
 
+![alt text](https://github.com/razxssd/react-rtk-query-tcb-talk/blob/main/Images/react-rtk-query-tcb-talk.png?raw=true)
+
 Questo progetto contiene gli esempi presentati durante il talk.
 
 Esempi di:
