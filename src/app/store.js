@@ -10,4 +10,7 @@ export const store = configureStore({
     getDefaultMiddleware().concat(productsApi.middleware), // Ci aiuterà semplicemente con la gestione della cache
 });
 
-setupListeners(store.dispatch); // This is a tool for enabling the refetchOnFocus and refetchOnReconnect characteristics
+setupListeners(store.dispatch); // Abiliterà il refetchOnFocus e refetchOnReconnect
+
+
+

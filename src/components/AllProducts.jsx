@@ -1,8 +1,8 @@
+import React from 'react'
 import { useGetAllProductQuery } from "../app/service/dummyData";
 
 const AllProducts = () => {
   const { data, isError, isLoading } = useGetAllProductQuery();
-  console.log(data);
 
   if (isError) {
     return <h1>OOOhNoooo we got an error</h1>;
@@ -15,10 +15,10 @@ const AllProducts = () => {
   return (
     <div>
       {data?.products.map((p) => (
-        <>
-          <h1 key={p.id}>{p.title}</h1>
+        <React.Fragment key={p.id}>
+          <h1>{p.title}</h1>
           <p>{p.description}</p>
-        </>
+        </React.Fragment>
       ))}
     </div>
   );
